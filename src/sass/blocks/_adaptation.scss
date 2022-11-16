@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .header {
+        &__logo {
+            width: 240px;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 17px;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .button {
+        width: 140px;
+        background-color: blue;
+        &_main {
+            width: 280px;
+        }
+    }
+    .promo {
+        padding: 20px 0 90px 0;
+        &__wrapper {
+            margin-top: 80px;
+        }
+        &__header {
+            line-height: 40px;
+        }
+        &__icons {
+            margin-top: 60px;
+            width: 415px;
+        }
+        &__icon {
+            width: 105px;
+            font-size: 13px;
+            img {
+                margin-bottom: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    /* .container {
+    max-width: 950px;
+    margin: 0 auto;
+    } */
+    .button {
+        background-color: pink;
+    }
+}
+
+
+@media (max-width: 767px) {
+    /* .container {
+    max-width: 650px;
+    margin: 0 auto;
+    } */
+    .button {
+        background-color: blue;
+    }
+}
+
+
+@media (max-width: 575px) {
+    /* .container {
+    max-width: 550px;
+    margin: 0 auto;
+    } */
+    .button {
+        background-color: pink;
+    }
+}
