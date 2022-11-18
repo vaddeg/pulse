@@ -1,7 +1,6 @@
 @media (max-width: 1200px) {
     .container {
         max-width: 850px;
-        margin: 0 auto;
     }
     .header {
         &__logo {
@@ -44,34 +43,123 @@
             }
         }
     }
+    .advantages {
+        padding: 65px 0 75px 0;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__subtitle {
+            margin-top: 35px;
+            font-size: 17px;
+        }
+        &__descr {
+            margin-top: 22px;
+            font-size: 13px;
+        }
+    }
 }
 
 @media (max-width: 991px) {
-    /* .container {
-    max-width: 950px;
-    margin: 0 auto;
-    } */
+    .container {
+    max-width: 700px;
+    }
     .button {
         background-color: pink;
+    }
+    .promo {
+        padding: 20px 0 60px 0;
+    }
+    .advantages {
+        padding: 50px 0 60px 0;
+        &__item {
+            max-width: 210px;
+        }
     }
 }
 
 
 @media (max-width: 767px) {
-    /* .container {
-    max-width: 650px;
-    margin: 0 auto;
-    } */
+    .container {
+    max-width: 550px;
+    }
+    .header {
+        &__logo {
+            width: 180px;
+            }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
     .button {
+        width: 125px;
+        height: 25px;
         background-color: blue;
+        font-size: 11px;
+        &_main {
+            margin-top: 60px;
+            width: 250px;
+            height: 45px;
+            font-size: 15px;
+        }
+    }
+    .promo {
+        min-height: 600px;
+        padding: 20px 0 50px 0;
+        &__wrapper {
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            margin-top: 15px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__icons {
+            margin-top: 50px;
+            width: 410px;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .advantages {
+        padding: 50px 0 50px 0;
+        &__wrapper {
+            margin-top: 10px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__item {
+            margin-top: 45px;
+            max-width: 200px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 12px;
+        }
     }
 }
-
 
 @media (max-width: 575px) {
     /* .container {
     max-width: 550px;
-    margin: 0 auto;
     } */
     .button {
         background-color: pink;
